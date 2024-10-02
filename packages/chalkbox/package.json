@@ -1,0 +1,29 @@
+{
+  "name": "chalkbox",
+  "version": "1.0.0",
+  "description": "One of the best colors modules out there.",
+  "main": "safe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tj-commits/chalkbox.git"
+  },
+  "keywords": [
+    "chalkbox",
+    "chalk",
+    "colors",
+    "console",
+    "node"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tj-commits/chalkbox/issues"
+  },
+  "homepage": "https://github.com/tj-commits/chalkbox#readme",
+  "dependencies": {
+    "@chalkbox/terminal": "^1.0.0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@chalkbox/supports-color",
+  "version": "1.0.1",
+  "description": "Detect whether a terminal supports color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tj-commits/chalkbox.git"
+  },
+  "keywords": [
+    "color"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tj-commits/chalkbox/issues"
+  },
+  "homepage": "https://github.com/tj-commits/chalkbox#readme",
+  "dependencies": {
+    "@chalkbox/has-flag": "^1.0.0",
+    "@not-js/not": "^1.0.0",
+    "const": "^1.0.0",
+    "false": "^0.0.4",
+    "integer-value-positive-one": "^1.0.2",
+    "integer-value-positive-three": "^1.0.0",
+    "integer-value-positive-zero": "^1.0.1",
+    "is-windows": "^1.0.2",
+    "iszero": "^1.0.0",
+    "the-number-ten": "^0.0.2",
+    "true": "^0.0.4",
+    "two": "^1.0.7",
+    "undefined-is-a-function": "^0.1.0"
+  }
+}

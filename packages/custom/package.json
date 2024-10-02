@@ -1,0 +1,25 @@
+{
+  "name": "@chalkbox/custom",
+  "version": "1.0.0",
+  "description": "Custom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tj-commits/chalkbox.git"
+  },
+  "keywords": [
+    "chalkbox"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tj-commits/chalkbox/issues"
+  },
+  "homepage": "https://github.com/tj-commits/chalkbox#readme",
+  "dependencies": {
+    "is-undefined": "^1.0.11"
+  }
+}

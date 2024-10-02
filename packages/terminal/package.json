@@ -1,0 +1,39 @@
+{
+  "name": "@chalkbox/terminal",
+  "version": "1.0.0",
+  "description": "The ChalkBox core module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tj-commits/chalkbox.git"
+  },
+  "keywords": [
+    "chalkbox"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tj-commits/chalkbox/issues"
+  },
+  "homepage": "https://github.com/tj-commits/chalkbox#readme",
+  "dependencies": {
+    "@chalkbox/custom": "^1.0.0",
+    "@chalkbox/maps": "^1.0.0",
+    "@chalkbox/styles": "^1.0.0",
+    "@chalkbox/supports-color": "^1.0.1",
+    "empty-string": "^1.1.1",
+    "false": "^0.0.4",
+    "get-intrinsic": "^1.2.4",
+    "immediate-error": "^4.0.0",
+    "is-string": "^1.0.7",
+    "is-undefined": "^1.0.11",
+    "issue13": "^2.0.1",
+    "logtoconsole": "^1.0.7",
+    "object.defineproperties": "^1.0.3",
+    "the-letter-g": "^1.0.0",
+    "true": "^0.0.4"
+  }
+}
