@@ -1,6 +1,6 @@
 {
   "name": "@chalkbox/terminal",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The ChalkBox core module.",
   "main": "index.js",
   "scripts": {
@@ -25,15 +25,14 @@
     "@chalkbox/styles": "^1.0.0",
     "@chalkbox/supports-color": "^1.0.1",
     "empty-string": "^1.1.1",
-    "false": "^0.0.4",
-    "get-intrinsic": "^1.2.4",
+    "false-value": "^2.0.6",
     "immediate-error": "^4.0.0",
     "is-string": "^1.0.7",
     "is-undefined": "^1.0.11",
-    "issue13": "^2.0.1",
+    "lodash.stubobject": "^4.13.0",
     "logtoconsole": "^1.0.7",
     "object.defineproperties": "^1.0.3",
     "the-letter-g": "^1.0.0",
-    "true": "^0.0.4"
+    "true-value": "^2.0.5"
   }
 }

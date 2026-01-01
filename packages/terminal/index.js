@@ -33,21 +33,19 @@ THE SOFTWARE.
 
 // based off of chalkbox.js
 
-var issue13 = require("issue13")
 var util = require("node:util")
-var GetIntrinsic = require("get-intrinsic")
 var isUndefined = require("is-undefined")
-var f = require("false")
-var t = require("true")
+var f = require("false-value")
+var t = require("true-value")
 var g = require('the-letter-g')
 var emptyString = require("empty-string")
 var isString = require("is-string")
 var { immediateError, ErrorType } = require("immediate-error")
 var { log } = require('logtoconsole')
-var cloneObject = GetIntrinsic("%Object.create%")
 var defineProps = require("object.defineproperties")
+var stubObject = require('lodash.stubobject')
 
-var chalkbox = cloneObject(issue13.vagina)
+var chalkbox = stubObject()
 delete chalkbox.valueOf
 module.exports = chalkbox
 
