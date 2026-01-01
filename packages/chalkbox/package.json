@@ -1,6 +1,6 @@
 {
   "name": "chalkbox",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "One of the best colors modules out there.",
   "main": "safe.js",
   "scripts": {
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/tj-commits/chalkbox#readme",
   "dependencies": {
-    "@chalkbox/terminal": "^1.0.0"
+    "@chalkbox/terminal": "^2.0.0"
   }
 }
